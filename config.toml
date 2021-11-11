@@ -5,7 +5,7 @@ theme = 'hugo-theme-shell'
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "zhangchi.io!"
+  description = "https://zhangchi.io"
   [Params.Terminal]
   # Note: color schema
   # Note: You can choose between
@@ -24,8 +24,8 @@ theme = 'hugo-theme-shell'
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "chi"
-  pcName = "laptop"
+  userName = "zhangchi"
+  pcName = "io"
   workDir = "zhangchi.io"
   profile = "README.md"
 
@@ -60,18 +60,5 @@ theme = 'hugo-theme-shell'
 
   """
 
-  # Note: If you want to use a Markdown file, you can use the following
-  # description = "/description.md"
-  # Note: and put the description.md in /content/description.md
-
   [Params.Tree]
   use = false
-  folderName = "my_activity"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
-  ]
