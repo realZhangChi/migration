@@ -11,5 +11,16 @@
           var s = document.getElementsByTagName("script")[0]; 
           s.parentNode.insertBefore(hm, s);
         })();
-        </script>
+    </script>
+
+    <script>
+        function redirect()
+        {
+            window.location = "https://zhangchi.io";
+        }
+        if(window.location.href === "https://blog.zhangchi.fun" || window.location.href === "https://blog.zhangchi.fun/")
+        {
+            window.setTimeout(redirect, 5000);
+        }
+    </script>
 </head>

@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.zhangchi.fun/'
 languageCode = 'en-us'
 title = 'please visit zhangchi.io'
 theme = 'hugo-theme-shell'
